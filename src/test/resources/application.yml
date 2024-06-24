@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: bff-products
+app:
+  external-api-url: "https://dummyjson.com/products"
+jwt:
+  key: 85dbe15d75ef9308c7ae0f33c7a324cc6f4bf519a2ed2f3027bd33c140a4f9aa
+  access-token-expiration: 3600000
+  refresh-token-expiration: 8640000
